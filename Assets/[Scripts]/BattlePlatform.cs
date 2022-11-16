@@ -1,10 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BattlePlatform : MonoBehaviour
 {
-    public Text Name;
-    public Text level;
+    public TMP_Text Name;
+    public TMP_Text level;
     public Slider hpSlider;
 
     public void HudSet(Unit unit)

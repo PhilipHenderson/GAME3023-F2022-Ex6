@@ -53,10 +53,19 @@ MonoBehaviour:
   Unitname: Ralfie
   Unitlvl: 1
   dmg: 10
-  defendedDmg: 0
+  defendedDmg: 5
+  fireBlastDmg: 15
+  burningDmg: 3
+  burningTurnsLeft: 0
+  icePistolDmg: 15
+  freezingDmg: 3
+  freezingTurnsLeft: 0
   maxHp: 45
   currentHp: 45
   isDefending: 0
+  isOnFire: 0
+  isBlownAway: 0
+  isSoaked: 0
 --- !u!1 &5999023609250784219
 GameObject:
   m_ObjectHideFlags: 0

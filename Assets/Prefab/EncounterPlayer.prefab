@@ -53,10 +53,19 @@ MonoBehaviour:
   Unitname: Tupenga
   Unitlvl: 1
   dmg: 10
-  defendedDmg: 0
+  defendedDmg: 5
   maxHp: 50
   currentHp: 50
+  fireBlastDmg: 15
+  burningDmg: 3
+  burningTurnsLeft: 0
+  icePistolDmg: 15
+  freezingDmg: 3
+  freezingTurnsLeft: 0
   isDefending: 0
+  isOnFire: 0
+  isBlownAway: 0
+  isFrozen: 0
 --- !u!1 &6856834195548987195
 GameObject:
   m_ObjectHideFlags: 0
